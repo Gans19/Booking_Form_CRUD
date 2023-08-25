@@ -66,3 +66,24 @@ button {
   .card{
     padding: 20px;
   }
+
+  input[type="date"]{
+    /* background-color: #FFFFF0; */
+
+  }
+  ::-webkit-calendar-picker-indicator{
+    /* background-color: grey; */
+    /* color: red; */
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+     filter: invert(53%) sepia(94%) saturate(2017%) hue-rotate(325deg) brightness(100%) contrast(93%);
+}
+/* ::-webkit-calender-calendar{
+    display: none;
+} */
+/* showIcon { 
+    background-color: #374259;
+    float: right;
+}
+.datepicker-icon {  float: right;} */
